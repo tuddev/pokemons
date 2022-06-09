@@ -1,0 +1,34 @@
+.button {
+    $r: &;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    cursor: default;
+
+    &--secondary{
+        #{$r}__container {
+            max-width: 160px;
+            background: white;
+        }
+        
+        #{$r}__text {
+            color: #1749fe;
+        }
+    }
+
+    &__container {
+        padding: 10px 20px;
+        border-radius: 30px;
+        background: #1749fe;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 120px;
+        cursor: pointer;
+    }
+
+    &__text {
+        color: white;
+    }
+}

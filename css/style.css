@@ -1,0 +1,216 @@
+.page {
+  font-family: Lato, sans-serif;
+  background: #edf0f5;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.page--secondary {
+  background: #1749fe;
+}
+
+.page--secondary .page__container {
+  width: 100%;
+  max-width: 600px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page__item {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.page__item--template {
+  display: none;
+}
+
+.list-card {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px 20px;
+  background: #fff;
+  border-radius: 10px;
+  word-wrap: break-word;
+}
+
+.list-card__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list-card__img {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.list-card__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.list-card__title {
+  padding: 20px 0 20px 0;
+  word-wrap: break-word;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.list-card__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list-card__items-col {
+  margin: 0;
+  padding: 0;
+  margin-right: 15px;
+}
+
+.list-card__items-col:last-child {
+  margin-right: 0;
+}
+
+.list-card__item {
+  list-style-type: none;
+  text-transform: capitalize;
+  margin-bottom: 6px;
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-decoration: none;
+  cursor: default;
+}
+
+.button--secondary .button__container {
+  max-width: 160px;
+  background: white;
+}
+
+.button--secondary .button__text {
+  color: #1749fe;
+}
+
+.button__container {
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: #1749fe;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 120px;
+  cursor: pointer;
+}
+
+.button__text {
+  color: white;
+}
+
+.pokemon-detail {
+  -webkit-box-shadow: 10px 10px 20px #0733d3, -10px -10px 20px #0733d3;
+          box-shadow: 10px 10px 20px #0733d3, -10px -10px 20px #0733d3;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background: white;
+}
+
+.pokemon-detail__title {
+  text-transform: uppercase;
+  padding: 10px 0 20px 0;
+  word-wrap: break-word;
+  font-size: 24px;
+}
+
+.pokemon-detail__desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pokemon-detail__img {
+  width: 150px;
+  height: 150px;
+}
+
+.pokemon-detail__extention {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.pokemon-detail__subtitle {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.pokemon-detail__items-col {
+  margin: 0;
+  padding: 0;
+}
+
+.pokemon-detail__item {
+  list-style-type: none;
+  text-transform: capitalize;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */

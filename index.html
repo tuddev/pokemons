@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="page">
+        <div class="page__container" id="page-container">
+            <div class="page__item page__item--template" id="page-item-template">
+                <div class="list-card">
+                    <div class="list-card__content">
+                        <img src="" class="list-card__img" id="list-card-img">
+                        <div class="list-card__description">
+                            <div class="list-card__title" id="list-card-title"></div>
+                            <div class="list-card__items" id="pokemon-stats-items">
+                                <ul class="list-card__items-col" id="pokemon-stats-items-col">
+                                    <li class="list-card__item" id="pokemon-stats-item"></li>
+                                </ul>
+                            </div>     
+                        </div>
+                    </div>
+                    <a href="pokemon.html" class="list-card__button button" id="button-to-pokemon">
+                        <div class="button__container">
+                            <div class="button__text">Подробнее</div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script  type="module" src=" ./scripts/render-utils.js"></script>
+    <script  type="module" src="./scripts/pokemon-list.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+.list-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    background: #fff;
+    border-radius: 10px;
+    word-wrap: break-word;
+
+    &__content {
+        display: flex;
+    }
+
+    &__img {
+        width: 150px;
+        height: 150px;
+        margin-right: 20px;
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+    }
+   
+    &__title {
+        padding: 20px 0 20px 0;
+        word-wrap: break-word;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    &__items {
+        display: flex;
+    }
+
+    &__items-col {
+        margin: 0;
+        padding: 0;
+        margin-right: 15px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__item {
+        list-style-type: none;
+        text-transform: capitalize;
+        margin-bottom: 6px;
+    }
+}
